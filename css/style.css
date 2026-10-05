@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Aril, sans-serif;
+    font-size: 16px;
+    background-color: #e2e7ec;
+}
+
+.element {
+    width: 780px;
+    height: 438px;
+    margin: 20px auto;
+    background: 
+        url('../img/3.png') no-repeat,
+        url('../img/2.png') no-repeat,
+        url('../img/1.jpg') no-repeat;
+    background-size: 300px, 150px, auto;
+    background-position: 250px 200px, 10px 150px, center;
+    background-position: right 50px bottom 5px, left 10px bottom 135px, center;
+}
+
+.element2 {
+     width: 780px;
+    height: 438px;
+    margin: 20px auto;
+    background: #fff url('../img/3.png');
+    background-size: 250px;
+    background-repeat: repeat;
+    background-repeat: space;
+}
